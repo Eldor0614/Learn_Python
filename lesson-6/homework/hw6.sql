@@ -109,7 +109,14 @@ print("Done!")
 
 
   ##11.
-  
+ number = int(input("Enter the number you want to check:"))
+
+for i in range(2, number):
+    if number % i == 0:
+        print("This is not a prime number!")
+        break
+else:
+    print("This is a Prime number!") 
   
 
 
